@@ -1,13 +1,5 @@
-idf_component_register(
-    SRCS
-        "main.c"
-        "usb_audio.c"
-        "i2s_output.c"
-    INCLUDE_DIRS "."
-    REQUIRES
-        driver
-        usb
-        log
-        freertos
-        esp_common
-)
+cmake_minimum_required(VERSION 3.16)
+
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+
+project(esp32s3-usb-speaker)
