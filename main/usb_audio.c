@@ -21,7 +21,7 @@
 #include "i2s_output.h"
 
 #include "esp_private/usb_phy.h"
-#include "tinyusb.h"
+#include "esp_tinyusb.h"
 #include "tinyusb_net.h"
 #include "class/audio/audio.h"
 #include "device/usbd.h"
